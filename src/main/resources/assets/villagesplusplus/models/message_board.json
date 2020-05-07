@@ -1,0 +1,144 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "glass_silver": "minecraft:blocks/glass_silver",
+        "wool_colored_light_blue": "minecraft:blocks/wool_colored_light_blue",
+        "wool_colored_green": "minecraft:blocks/wool_colored_green",
+        "wool_colored_orange": "minecraft:blocks/wool_colored_orange",
+        "wool_colored_yellow": "minecraft:blocks/wool_colored_yellow",
+        "wool_colored_red": "minecraft:blocks/wool_colored_red",
+        "wool_colored_brown": "minecraft:blocks/wool_colored_brown"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Side_1",
+            "from": [ 1, 0, 7 ], 
+            "to": [ 3, 13, 9 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "east": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "south": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "west": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "down": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Side_2",
+            "from": [ 13, 0, 7 ], 
+            "to": [ 15, 13, 9 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "east": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "south": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "west": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 13 ] },
+                "down": { "texture": "#wool_colored_brown", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Frontal_Board",
+            "from": [ 2, 6, 9 ], 
+            "to": [ 14, 12, 10 ], 
+            "faces": {
+                "north": { "texture": "#glass_silver", "uv": [ 0, 0, 12, 6 ] },
+                "east": { "texture": "#glass_silver", "uv": [ 0, 0, 1, 6 ] },
+                "south": { "texture": "#glass_silver", "uv": [ 0, 0, 12, 6 ] },
+                "west": { "texture": "#glass_silver", "uv": [ 0, 0, 1, 6 ] },
+                "up": { "texture": "#glass_silver", "uv": [ 0, 0, 12, 1 ] },
+                "down": { "texture": "#glass_silver", "uv": [ 0, 0, 12, 1 ] }
+            }
+        },
+        {
+            "name": "base",
+            "from": [ 0, 13, 5 ], 
+            "to": [ 16, 14, 11 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_red", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#wool_colored_red", "uv": [ 0, 0, 6, 1 ] },
+                "south": { "texture": "#wool_colored_red", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#wool_colored_red", "uv": [ 0, 0, 6, 1 ] },
+                "up": { "texture": "#wool_colored_red", "uv": [ 0, 0, 16, 6 ] },
+                "down": { "texture": "#wool_colored_red", "uv": [ 0, 0, 16, 6 ] }
+            }
+        },
+        {
+            "name": "base2",
+            "from": [ 1, 14, 6 ], 
+            "to": [ 15, 15, 10 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_orange", "uv": [ 0, 0, 14, 1 ] },
+                "east": { "texture": "#wool_colored_orange", "uv": [ 0, 0, 4, 1 ] },
+                "south": { "texture": "#wool_colored_orange", "uv": [ 0, 0, 14, 1 ] },
+                "west": { "texture": "#wool_colored_orange", "uv": [ 0, 0, 4, 1 ] },
+                "up": { "texture": "#wool_colored_orange", "uv": [ 0, 0, 14, 4 ] }
+            }
+        },
+        {
+            "name": "base3",
+            "from": [ 2, 15, 7 ], 
+            "to": [ 14, 16, 9 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_yellow", "uv": [ 0, 0, 12, 1 ] },
+                "east": { "texture": "#wool_colored_yellow", "uv": [ 0, 0, 2, 1 ] },
+                "south": { "texture": "#wool_colored_yellow", "uv": [ 0, 0, 12, 1 ] },
+                "west": { "texture": "#wool_colored_yellow", "uv": [ 0, 0, 2, 1 ] },
+                "up": { "texture": "#wool_colored_yellow", "uv": [ 0, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "base4",
+            "from": [ 4, 16, 7 ], 
+            "to": [ 12, 17, 9 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_green", "uv": [ 0, 0, 8, 1 ] },
+                "east": { "texture": "#wool_colored_green", "uv": [ 0, 0, 2, 1 ] },
+                "south": { "texture": "#wool_colored_green", "uv": [ 0, 0, 8, 1 ] },
+                "west": { "texture": "#wool_colored_green", "uv": [ 0, 0, 2, 1 ] },
+                "up": { "texture": "#wool_colored_green", "uv": [ 0, 0, 8, 2 ] }
+            }
+        },
+        {
+            "name": "base5",
+            "from": [ 6, 17, 7 ], 
+            "to": [ 10, 18, 9 ], 
+            "faces": {
+                "north": { "texture": "#wool_colored_light_blue", "uv": [ 0, 0, 4, 1 ] },
+                "east": { "texture": "#wool_colored_light_blue", "uv": [ 0, 0, 2, 1 ] },
+                "south": { "texture": "#wool_colored_light_blue", "uv": [ 0, 0, 4, 1 ] },
+                "west": { "texture": "#wool_colored_light_blue", "uv": [ 0, 0, 2, 1 ] },
+                "up": { "texture": "#wool_colored_light_blue", "uv": [ 0, 0, 4, 2 ] }
+            }
+        }
+    ]
+}

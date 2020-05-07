@@ -1,0 +1,16 @@
+[
+{
+  "modid": "VillagesPlusPlus",
+  "name": "Villages++",
+  "description": "Make villages great again.",
+  "version": "1.0",
+  "mcversion": "1.12",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Group 7"],
+  "credits": "Googling...",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
